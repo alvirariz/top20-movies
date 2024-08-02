@@ -1,0 +1,18 @@
+.main { background-color: rgb(121, 33, 33);height: 104vh; width: 100%; display: flex; flex-direction: row;}
+.sec { background-color: black; height: 100%; width: 65%; display:flex; flex-direction: column;align-items: center;}
+.hddr {color: rgb(244, 248, 248);  text-align: center; }
+.trailer{width:100%; display: flex; justify-content: space-around; }
+iframe {height: 300%; width:90%}
+.side{ background-color: rgb(0, 0, 0); height: 100%; width: 33%; color: rgb(253, 253, 253);}
+.genre{ margin: 2%; text-align: center; display: flex; justify-content: center; align-items: center;}
+.list{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.syno{text-align: center; margin: 10%;}
+.oth{ text-align: center; margin: 10%;}
+.back {width: 5%}
+.bttn{background-color: black; color: aliceblue; font-size: x-large; border-radius: 100%; margin: 5%;}
+@media screen  AND (max-width:900px) {.main {flex-direction: column; width:100%; height: 100%;}
+.side{ width: 100%;}
+.sec{ width: 100%; height: 103vh;}
+
+}
+    

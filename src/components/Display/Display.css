@@ -1,0 +1,13 @@
+.Main{ background-color: black;display: flex; flex-direction: column;
+    align-items: center; justify-content: center; width: 100%; height: 100%}
+.Header { text-transform: uppercase; color: rgb(255, 255, 255); position: fixed; top: 0; background-color: black; width: 100%; text-align: center;}
+.secondary{background-color: rgb(121, 33, 33); width: 60%; height: auto; margin-top: 8%; text-align: center;
+}
+.con{color: aliceblue; display: flex; justify-content: center; align-items: center; margin: 10%; flex-direction: row-reverse;}
+.para{text-align: center; margin: 2%;}
+.img {width:20%}
+.link {color: aliceblue; text-decoration: none;}
+.link :hover {color:black}
+.block{ width:100%; padding: 1%; background-color: black;}
+@media screen and (max-width:900px){ .Header{font-size: xx-small;}.secondary{margin-top: 5%;} .con{flex-direction: column;}.Main{height: 100%;} .block{padding: 2%;} 
+}
