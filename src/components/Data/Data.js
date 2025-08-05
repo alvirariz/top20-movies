@@ -19,7 +19,7 @@ export function Data(){
         const options = {method: 'GET',
             headers: {
               accept: 'application/json',
-              Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzMjMzN2U4OGM2ZWI5ZWVmYTkzYTMxZGFmMjRmYjkxNiIsIm5iZiI6MTcyMjI0NzMwMy41MjM0NTcsInN1YiI6IjY2OWEyYTc5NmQ1ZmUyMjg5N2IxOWY2OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.jXb2QVRpHsD0UkrY7cVGZ5JAWhP1yBLtAtxl2xX6vr8'
+              Authorization: process.env.REACT_APP_TMDB_BEARER
             }
           };
            
