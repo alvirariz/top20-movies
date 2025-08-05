@@ -8,7 +8,6 @@ This is a multi-page React application that displays real-time data of the top 2
 - Dynamic routing for individual movie detail views
 - Embedded trailers (YouTube) within movie pages
 - Display of movie taglines for additional context
-- Genre-based classification and visual tags
 - Responsive and mobile-friendly interface
 - API key is securely stored using environment variables
 
